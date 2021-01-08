@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flutterwave + stuttern</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=".script.js">
+    <scrtpt src="script.js"></scrtpt>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/flutter asset/flutterwave iconlogo plain.jpeg" width="30" height="30"
+                class="d-inline-block align-top" alt="" loading="lazy">
+            FLUTTERWAVE
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Our Solutions
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Developers</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Resolution
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Sign In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#"><button>Create Account</button></a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/stut asset/stutern S logo 1.jpeg" width="30" height="30" class="d-inline-block align-top" alt=""
+                loading="lazy">
+            STUTERN
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Courses
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    For Employers
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    For Talents
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <button><a class="nav-link active" href="#">Log In</a></button>
+            </li>
+            <li class="nav-item">
+                <button><a class="nav-link active" href="#">Take a Course</a></button>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <h3>Let's get you started with <br>your Flutterwave account </h3>
+        <form id="count">
+            <label for="fname">user input</label>
+            <input type="text" id="userIput" name="userInput" placeholder="write a number"><br>
+            <label for="fname">Fullname</label>
+            <input type="text" name="name" placeholder="Firstname Lastname"><br>
+            <label for="fname">Trading name</label>
+            <input type="text" name=" tradename"><br>
+            <label for="fname">Email address</label>
+            <input type="email" name="email" placeholder="Email Address"><br>
+            <label for="fname">What country are you based in?</label>
+            <input type="text" name="name" placeholder="Nigeria"><br>
+            <label for="fname">How did you hear about Flutterwave</label>
+            <input type="text" name="name"><br>
+            <label for="fname">Got a referral code? (Optional)</label>
+            <input type="text" name="name" placeholder="Enter a referral code"><br>
+            <label for="fname">Choose a Password</label>
+            <input type="text" name="name" placeholder="Please eneter your Password"><br>
+            <input type="submit" value="Get Started">
+            <p>I acknowledge that I have read and do hereby accept the <br>terms and conditions in the Flutterwave's <a
+                    href="https://www./html/">Terms of
+                    Use</a>, <br><a href="https://www./html/">Merchant Agreement</a> and <a
+                    href="https://www./html/">Privacy
+                    Policy</a></p>
+            <p>Already have an account? <a href="https://www./">Login</a></p>
+        </form>
+
+        <h2>Login to your dashboard</h2>
+        <form id="count">
+            <label for="fname">Email address</label>
+            <input type="email" name="email" placeholder="Email Address"><br>
+            <label for="fname">Choose a Password</label>
+            <input type="password" name="name" placeholder="Please eneter your Password">
+            <p>Forget your Password?</p>
+            <input type="submit" value="Login to your Dashboard">
+            <p>Do you have a Flutterwave account? <a href="https://www./">Sign up</a></p>
+        </form>
+    </div>
+
+
+    <h2>Create seamless payment<br>experiences for your customers.</h2>
+
+    <div class="card-columns">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <footer class="blockquote-footer text-white">
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="/flutter asset/pos-for-payments.a29ebf7FW.jpg" alt="pos-for-payment">
+            </div>
+            <div class="col">
+                Accept payments anywhere.
+                One platform that lets you sell wherever your customers are — online, in‑person, anywhere in the world,
+                and everywhere in‑between.
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            Online (Website & Mobile)
+                            Sell online with an ecommerce <br>website, Mobile App and more.
+                        </div>
+                        <div class="col">
+                            POS (Point Of Sale)
+                            Sell in-person at your store <br>locations, pop-ups, concerts.
+                        </div>
+                    </div>
+                </div>
+
+                Reach more people with more payment methods
+                With little to no effort, remove the boundaries to scaling your business and reach more customers with
+                just one platform.
+
+                <ul>
+                    <li>Debit and Credit Cards</li>
+                    <li>Bank Account</li>
+                    <li>Mobile Money</li>
+                    <li>POS</li>
+                    <li>M-Pesa</li>
+                    <li>Visa QR</li>
+                    <li>Bank Transfer</li>
+                    <li>USSD</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Issue cards, create new businesses.
+                Create cards for your team, add spending limits, make them site-specific and so much more.
+
+                Create virtual Mastercard and VISA cards
+                Using the Flutterwave API, you can instantly create and manage virtual cards. Cards can be used
+                instantly through mobile wallets and global websites.
+
+                Create new FinTech businesses
+                With just a few lines of Issuing API code, the possibilities for your new FinTech business(es) are
+                endless.
+
+                LEARN MORE ABOUT CARD ISSUING
+
+
+            </div>
+            <div class="col">
+                <iframe src="/flutter asset/cards.a5becc9FW Card control.mp4" alt="atm card" width="500px"
+                    height="900px"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <iframe src="/flutter asset/radar.c0a3233 security check FW.mp4" alt="radar" width="500px"
+                    height="1000px"></iframe>
+            </div>
+            <div class="col">
+                Safety and security <br>guaranteed.
+                At Flutterwave, we take security seriously so every <br>payment made on our platform is 100% secure,
+                even
+                <br>exceeding industry standard.
+
+                ISO 27001 & 22301 Certification
+                The ISO 27001 & 22301 certification means that we have acceptable <br>business practices and processes,
+                including a robust business continuity <br>plan.
+
+                PA DSS & PCI DSS Compliant
+                This certification is proof that Flutterwave as a payment gateway <br>processor has satisfied highest
+                level
+                of Security Audit.
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="/flutter asset/pos-for-payments.a29ebf7FW.jpg" alt="pos-for-payment">
+            </div>
+            <div class="col">
+                <h2>The best businesses all over the world, big and small, trust Flutterwave for growth.
+                    Flutterwave supports some of the best businesses all over the world.</h2>
+
+                CHECK OUT OUR CUSTOMER SUCCESS STORIES
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-4">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-4">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-4">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
