@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/41b080973f.js"></script>
 </head>
 
 <body>
@@ -62,8 +63,8 @@
 
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="/stut asset/stutern S logo 1.jpeg" width="30" height="30" class="d-inline-block align-top" alt=""
-                loading="lazy">
+            <img src="/stut asset/stutern S logo 1.jpeg" width="30" height="30" class="d-inline-block align-top"
+                alt="stutern" loading="lazy">
             STUTERN
         </a>
         <ul class="nav justify-content-end">
@@ -109,73 +110,60 @@
         </ul>
     </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+
 
     <div>
         <h3>Let's get you started with <br>your Flutterwave account </h3>
         <form id="count">
-            <label for="fname">user input</label>
+            <label for="fname">user input</label><br>
             <input type="text" id="userIput" name="userInput" placeholder="write a number"><br>
-            <label for="fname">Fullname</label>
+            <label for="fname">Fullname</label><br>
             <input type="text" name="name" placeholder="Firstname Lastname"><br>
-            <label for="fname">Trading name</label>
+            <label for="tname">Trading name</label><br>
             <input type="text" name=" tradename"><br>
-            <label for="fname">Email address</label>
+            <label for="email">Email address</label><br>
             <input type="email" name="email" placeholder="Email Address"><br>
-            <label for="fname">What country are you based in?</label>
-            <input type="text" name="name" placeholder="Nigeria"><br>
-            <label for="fname">How did you hear about Flutterwave</label>
+            <label for="country">What Country are you based in?</label><br>
+            <select id="country" name="country">
+                <option value="Nigeria">Nigeria</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <br>
+            <label for="qname">How did you hear about Flutterwave</label><br>
             <input type="text" name="name"><br>
-            <label for="fname">Got a referral code? (Optional)</label>
+            <label for="rname">Got a referral code? (Optional)</label><br>
             <input type="text" name="name" placeholder="Enter a referral code"><br>
-            <label for="fname">Choose a Password</label>
-            <input type="text" name="name" placeholder="Please eneter your Password"><br>
+            <label for="pwd">Choose a Password</label><br>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+                    <path d="M10.79 12.912l-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.027 7.027 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.088z"/>
+                    <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708l-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6l-12-12 .708-.708 12 12-.708.707z"/>
+                  </svg>
+                  <input type="text" name="pwd" placeholder="Please eneter your Password">
+                <i class="bi bi-eye-slash-fill"></i>
+                <i class="bi bi-eye-slash-fill"></i>
+            </div><br>
             <input type="submit" value="Get Started">
-            <p>I acknowledge that I have read and do hereby accept the <br>terms and conditions in the Flutterwave's <a
+            <p>
+                <input type="checkbox" id="" name="" value="">
+                I acknowledge that I have read and do hereby accept the <br>terms and conditions in the Flutterwave's <a
                     href="https://www./html/">Terms of
                     Use</a>, <br><a href="https://www./html/">Merchant Agreement</a> and <a
                     href="https://www./html/">Privacy
-                    Policy</a></p>
+                    Policy</a>
+            </p>
             <p>Already have an account? <a href="https://www./">Login</a></p>
         </form>
 
-        <h2>Login to your dashboard</h2>
+        <h3>Login to your dashboard</h3>
         <form id="count">
-            <label for="fname">Email address</label>
+            <label for="email">Email address</label><br>
             <input type="email" name="email" placeholder="Email Address"><br>
-            <label for="fname">Choose a Password</label>
+            <label for="password">Choose a Password</label><br>
             <input type="password" name="name" placeholder="Please eneter your Password">
-            <p>Forget your Password?</p>
+            <p>Forget your Password?</p><br>
             <input type="submit" value="Login to your Dashboard">
             <p>Do you have a Flutterwave account? <a href="https://www./">Sign up</a></p>
         </form>
@@ -184,171 +172,42 @@
 
     <h2>Create seamless payment<br>experiences for your customers.</h2>
 
-    <div class="card-columns">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title that wraps to a new line</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-        <div class="card p-3">
-          <blockquote class="blockquote mb-0 card-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">
-              <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </small>
-            </footer>
-          </blockquote>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card bg-primary text-white text-center p-3">
-          <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-            <footer class="blockquote-footer text-white">
-              <small>
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </small>
-            </footer>
-          </blockquote>
-        </div>
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-        </div>
-        <div class="card p-3 text-right">
-          <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">
-              <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </small>
-            </footer>
-          </blockquote>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-
     <div class="container">
         <div class="row">
             <div class="col">
-                <img src="/flutter asset/pos-for-payments.a29ebf7FW.jpg" alt="pos-for-payment">
-            </div>
-            <div class="col">
-                Accept payments anywhere.
-                One platform that lets you sell wherever your customers are — online, in‑person, anywhere in the world,
-                and everywhere in‑between.
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            Online (Website & Mobile)
-                            Sell online with an ecommerce <br>website, Mobile App and more.
-                        </div>
-                        <div class="col">
-                            POS (Point Of Sale)
-                            Sell in-person at your store <br>locations, pop-ups, concerts.
-                        </div>
+                <div class="card w-50">
+                    <div class="card-body">
+                        <h2 class="card-title">Grow your business with Flutterwave.</h2>
+                        <p class="card-text">
+                            The easiest way to make and accept payments from customers anywhere in the world.</p>
+                        <a href="#" class="btn btn-primary">CREATE ACCOUT</a>
+                        <a href="#" class="btn btn-primary">SPEAK WITH US</a>
                     </div>
                 </div>
+            </div>
+            <div class="col">
+                One of three columns
+                <div class="card-columns">
+                    <div class="card">
+                        <img src="/flutter asset/max.ngFW.png" class="card-img-top" alt="max.ng" width="300px"
+                            height="200px">
+                    </div>
 
-                Reach more people with more payment methods
-                With little to no effort, remove the boundaries to scaling your business and reach more customers with
-                just one platform.
+                    <div class="card">
+                        <img src="/flutter asset/samke-mhlongoFW.png" alt="samke-mhlongo">
+                    </div>
 
-                <ul>
-                    <li>Debit and Credit Cards</li>
-                    <li>Bank Account</li>
-                    <li>Mobile Money</li>
-                    <li>POS</li>
-                    <li>M-Pesa</li>
-                    <li>Visa QR</li>
-                    <li>Bank Transfer</li>
-                    <li>USSD</li>
-                </ul>
+                    <div class="card">
+                        <img src="/flutter asset/krispy-kreme-counterFW.png" alt="krispy-kreme-counter">
+                    </div>
+
+                    <div class="card">
+                        <img src="/flutter asset/hygeiaFW.png" class="card-img-top" alt="hygeia">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                Issue cards, create new businesses.
-                Create cards for your team, add spending limits, make them site-specific and so much more.
-
-                Create virtual Mastercard and VISA cards
-                Using the Flutterwave API, you can instantly create and manage virtual cards. Cards can be used
-                instantly through mobile wallets and global websites.
-
-                Create new FinTech businesses
-                With just a few lines of Issuing API code, the possibilities for your new FinTech business(es) are
-                endless.
-
-                LEARN MORE ABOUT CARD ISSUING
-
-
-            </div>
-            <div class="col">
-                <iframe src="/flutter asset/cards.a5becc9FW Card control.mp4" alt="atm card" width="500px"
-                    height="900px"></iframe>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <iframe src="/flutter asset/radar.c0a3233 security check FW.mp4" alt="radar" width="500px"
-                    height="1000px"></iframe>
-            </div>
-            <div class="col">
-                Safety and security <br>guaranteed.
-                At Flutterwave, we take security seriously so every <br>payment made on our platform is 100% secure,
-                even
-                <br>exceeding industry standard.
-
-                ISO 27001 & 22301 Certification
-                The ISO 27001 & 22301 certification means that we have acceptable <br>business practices and processes,
-                including a robust business continuity <br>plan.
-
-                PA DSS & PCI DSS Compliant
-                This certification is proof that Flutterwave as a payment gateway <br>processor has satisfied highest
-                level
-                of Security Audit.
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="/flutter asset/pos-for-payments.a29ebf7FW.jpg" alt="pos-for-payment">
-            </div>
-            <div class="col">
-                <h2>The best businesses all over the world, big and small, trust Flutterwave for growth.
-                    Flutterwave supports some of the best businesses all over the world.</h2>
-
-                CHECK OUT OUR CUSTOMER SUCCESS STORIES
-            </div>
-        </div>
-    </div>
-
 
     <div class="container">
         <div class="row row-cols-2">
@@ -359,6 +218,100 @@
         </div>
     </div>
 
+
+    <div class="container">
+        <div class="row row-cols-4">
+            <div class="col">
+                <div class="cardi" style="width: 18rem;">
+                    <img src="/stut asset/ayowole-2stut.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Ayowole Adenuga
+
+                            SOFTWARE ENGINEER
+
+                            Interswitch 🇳🇬</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="cardi" style="width: 18rem;">
+                    <img src="/stut asset/silas stut.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Silas Onmbayugh
+
+                            PRODUCT DESIGNER
+
+                            Canva 🇦🇺</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="cardi" style="width: 18rem;">
+                    <img src="/stut asset/jessica stut.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/stut asset/" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-4">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/stut asset/busayo stut.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Busayo Odesanya
+
+                            USER EXPERIENCE DESIGNER
+
+                            Accedian 🇨🇦.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/stut asset/chinonso-2 stut.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Chinonso Raymond
+
+                            PRODUCT DESIGNER
+
+                            Paystack 🇳🇬</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/stut asset/j" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/stut asset/eleanor stut.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row row-cols-4">
             <div class="col">col</div>
@@ -368,24 +321,19 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row row-cols-4">
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row row-cols-4">
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
-        </div>
-    </div>
 
 
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
