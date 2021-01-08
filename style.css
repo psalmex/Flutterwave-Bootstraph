@@ -6,6 +6,9 @@ div {
     text-align: center;
 }
 
+h1 {
+  background-color: #f2f2f2;
+}
 input, select {
     width: 100%;
     background-color: white;
@@ -21,7 +24,7 @@ input, select {
   }
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #ff974f;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -31,7 +34,7 @@ input[type=submit] {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ff973f;
   }
   
   form {
@@ -41,6 +44,21 @@ input[type=submit] {
     margin-left: 450px;
     margin-right: 450px;
   }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .svg {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+  }
+  
 
 div.cardi.img {
     border-radius: 50px;
