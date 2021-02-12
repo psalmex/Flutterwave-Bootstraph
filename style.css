@@ -1,0 +1,65 @@
+* {
+    background-color: #f2f2f2;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+  background-color: #f2f2f2;
+}
+input, select {
+    width: 100%;
+    background-color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=checkbox] {
+      width: auto;
+  }
+input[type=submit] {
+    width: 100%;
+    background-color: #ff974f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff973f;
+  }
+  
+  form {
+    text-align: left;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+  }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .svg {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+  }
+  
+
+div.cardi.img {
+    border-radius: 50px;
+}
